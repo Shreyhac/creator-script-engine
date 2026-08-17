@@ -1,0 +1,20 @@
+# Reference clips and raw footage — other people's videos, and they bloat the repo.
+# The decode table in TEMPLATE.md captures everything the process needs from them.
+samples/
+**/samples/
+*.mp4
+*.mov
+*.m4v
+*.webm
+*.wav
+*.mp3
+
+# Working folders created by a run (creator-slug dirs) are local by default.
+# Commit a finished run explicitly with `git add -f <creator>/TEMPLATE.md`.
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
